@@ -54,7 +54,7 @@ ul {
 
 .section {
     padding: var(--spacing-xl) 0;
-    min-height: 100vh;
+    min-height: auto;
 }
 
 h1, h2 {
@@ -563,6 +563,13 @@ footer {
         display: block;
     }
 }
+
+@media (min-width: 901px) {
+    .section {
+        padding: 3rem 0;
+    }
+}
+
 @media (max-width: 480px) {
     :root {
         --font-size-h1: 2rem;

@@ -126,7 +126,7 @@ h2::after {
     width: 100%;
     z-index: 1000;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 15px var(--spacing-md);
     background-color: black;

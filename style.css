@@ -129,7 +129,7 @@ h2::after {
     justify-content: space-between;
     align-items: center;
     padding: 15px var(--spacing-md);
-    background-color: transparent;
+    background-color: black;
     transition: background-color 0.3s, box-shadow 0.3s;
 }
 
@@ -151,7 +151,6 @@ h2::after {
 
 .nav-links {
     display: flex;
-    background-color: black;
     gap: 25px;
 }
 
